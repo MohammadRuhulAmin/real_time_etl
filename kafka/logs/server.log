@@ -56,3 +56,6 @@
 [2024-07-13 18:08:01,410] INFO Snapshotting: 0x0 to /home/ruhul/real_time_etl/data/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
 [2024-07-13 18:08:01,459] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
 [2024-07-13 18:08:01,483] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2024-07-13 18:15:50,299] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2024-07-13 18:16:50,088] WARN Unable to read additional data from client sessionid 0x100013c71270000, likely client has closed socket (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-07-13 18:17:20,077] INFO Expiring session 0x100013c71270000, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)

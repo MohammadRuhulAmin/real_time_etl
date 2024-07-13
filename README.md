@@ -45,3 +45,17 @@
   bin/zookeeper-server-start.sh config/zookeeper.properties
   
   ```
+
+  for checking if zookeeper server has started or not execute `jps`
+
+  To check all the status or monitoring zookeeper we can use zookeeper shell.
+
+  ```shell
+  bin/zookeeper-shell.sh localhost:2181
+  
+  ```
+  Here our Standalone Zookeeper Server configuration has been successfully completed.
+
+  Now we will configure 3 broker and execute them in kafka cluster.
+
+  
