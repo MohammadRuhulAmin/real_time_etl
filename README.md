@@ -114,3 +114,19 @@
   ls /brokers/ids
   ```
 
+- Step10: Lets check the topics list:
+  
+  ```shell 
+  bin/kafka-topics.sh --list --zookeeper localhost:2181
+  // or
+  bin/kafka-topics.sh --bootstrap-server localhost:9092  --list
+
+  ```
+
+ To describe the details of a topic:
+ ```shell
+bin/kafka-topics.sh --zookeeper localhost:2181 --topic first-topic --describe
+
+ 
+ ```
+
