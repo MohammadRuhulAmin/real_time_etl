@@ -78,7 +78,8 @@
   zookeeper.connect=localhost:2181
   
   ```
-- Step7: Configuring the second broker-0 file
+- Step7: Configuring the second broker-1 file
+
   config/server-1.properties
 
   ```shell
