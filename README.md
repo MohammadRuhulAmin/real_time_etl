@@ -1,5 +1,6 @@
 ## Apache Kafka
 
+### Chapter: 1
 ### Kafka configuration with 3 kafka node in a Kafka Cluster installation process:
 
 - Step1: download kafka from website, installation command: 
