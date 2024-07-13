@@ -100,3 +100,12 @@
   num.partitions=3
   zookeeper.connect=localhost:2181
   ```
+
+- Step9: Execute the following scripts for running kafka server
+  
+  Run these scripts in seperate terminal, -d option will run in detach mode
+  ```shell
+  bin/kafka-server-start.sh config/server-0.properties
+  bin/kafka-server-start.sh config/server-1.properties
+  bin/kafka-server-start.sh config/server-2.properties
+  ```
