@@ -28,6 +28,12 @@
   
   echo "maxClientCnxns=50" >> config/zookeeper.properties
 
+  echo "admin.serverPort=9090" >> config/zookeeper.properties
 
+  ```
+
+  or simply we can execute the following command 
+  ```shell
+  echo -e "dataDir=/home/ruhul/real_time_etl/data/zookeeper\nadmin.enableServer=true\nmaxClientCnxns=50\nadmin.serverPort=9090" >> config/zookeeper.properties
 
   ```
