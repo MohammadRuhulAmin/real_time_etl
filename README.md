@@ -140,3 +140,10 @@ bin/kafka-topics.sh --zookeeper localhost:2181 --topic first-topic --describe
   bin/kafka-console-consumer.sh --bootstrap-server localhost:9092,localhost:9093 --topic first-topic --from-beginning
 
   ```
+
+  creating a consumer group
+
+  ```shell
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first-topic --from-beginning --group first-group
+
+  ```
