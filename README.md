@@ -134,3 +134,9 @@ bin/kafka-topics.sh --zookeeper localhost:2181 --topic first-topic --describe
   bin/kafka-console-producer.sh --broker-list localhost:9092,localhost:9093,localhost:9094 --topic first-topic
   // not mandatory to provide all the brokers address.
   ```
+- Step12: create a consumer and listen the topic 
+
+  ```shell 
+  bin/kafka-console-consumer.sh --bootstrap-server localhost:9092,localhost:9093 --topic first-topic --from-beginning
+
+  ```
