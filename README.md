@@ -90,3 +90,13 @@
   zookeeper.connect=localhost:2181
 
   ```
+
+- Step8: Configuring the third broker-2 file
+  config/server-2.properties
+  ```shell
+  broker.id=2
+  listeners=PLAINTEXT://localhost:9094
+  log.dirs=/home/ruhul/real_time_etl/data/broker-2
+  num.partitions=3
+  zookeeper.connect=localhost:2181
+  ```
