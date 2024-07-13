@@ -30,10 +30,12 @@
 
   echo "admin.serverPort=9090" >> config/zookeeper.properties
 
+  echo "server.1=localhost:2888:3888" >> config/zookeeper.properties
+
   ```
 
   or simply we can execute the following command 
   ```shell
-  echo -e "dataDir=/home/ruhul/real_time_etl/data/zookeeper\nadmin.enableServer=true\nmaxClientCnxns=50\nadmin.serverPort=9090" >> config/zookeeper.properties
+  echo -e "dataDir=/home/ruhul/real_time_etl/data/zookeeper\nadmin.enableServer=true\nmaxClientCnxns=50\nadmin.serverPort=9090\nserver.1=localhost:2888:3888" >> config/zookeeper.properties
 
   ```
