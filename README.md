@@ -15,3 +15,8 @@
 
 - Step2: create a directory `Data` in the current directory. Here all the data,logs, topic data will be stored.
    
+  ```shell
+  mkdir Data
+  cd Data
+  mkdir broker-0 broker-1 broker-2 zookeeper
+  ``` 
