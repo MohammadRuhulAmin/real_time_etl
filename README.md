@@ -11,4 +11,7 @@
   for unzip the kafka file :
   ```shell
   tar -xf kafka_2.13-2.8.2.tgz
-  ``` 
+  ```
+
+- Step2: create a directory `Data` in the current directory. Here all the data,logs, topic data will be stored.
+   
