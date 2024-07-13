@@ -20,3 +20,14 @@
   cd Data
   mkdir broker-0 broker-1 broker-2 zookeeper
   ``` 
+- Step3: lets configure the zookeeper.properties file.
+  ```shell
+  echo "dataDir=/home/ruhul/real_time_etl/data/zookeeper" >> config/zookeeper.properties
+
+  echo "admin.enableServer=true" >> config/zookeeper.properties
+  
+  echo "maxClientCnxns=50" >> config/zookeeper.properties
+
+
+
+  ```
