@@ -58,4 +58,23 @@
 
   Now we will configure 3 broker and execute them in kafka cluster.
 
+- Step5: creating 3 server.properties
+  ```shell
+   mv server.properties server-0.properties
+   cp server-0.properties server-1.properties
+
+   cp server-1.properties server-2.properties
+  ```
+
+- Step6: Configuring the first broker-0.
   
+  config/server-0.properties
+  
+  ```shell
+  broker.id=0
+  listeners=PLAINTEXT://localhost:9092
+  log.dirs=/home/ruhul/real_time_etl/data/broker-0
+  num.partitions=3
+  zookeeper.connect=localhost:2181
+  
+  ```
