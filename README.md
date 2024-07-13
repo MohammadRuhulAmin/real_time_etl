@@ -39,3 +39,9 @@
   echo -e "dataDir=/home/ruhul/real_time_etl/data/zookeeper\nadmin.enableServer=true\nmaxClientCnxns=50\nadmin.serverPort=9090\nserver.1=localhost:2888:3888" >> config/zookeeper.properties
 
   ```
+- Step4: Now lets start zookeeper server.
+
+  ```shell
+  bin/zookeeper-server-start.sh config/zookeeper.properties
+  
+  ```
