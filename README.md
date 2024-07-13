@@ -127,6 +127,10 @@
  ```shell
 bin/kafka-topics.sh --zookeeper localhost:2181 --topic first-topic --describe
 
- 
  ```
-
+- Step11: create a producer
+  
+  ```shell
+  bin/kafka-console-producer.sh --broker-list localhost:9092,localhost:9093,localhost:9094 --topic first-topic
+  // not mandatory to provide all the brokers address.
+  ```
